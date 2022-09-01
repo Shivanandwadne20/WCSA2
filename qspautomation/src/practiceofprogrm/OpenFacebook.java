@@ -9,6 +9,7 @@ public class OpenFacebook {
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facaebbk.com");
+		System.out.println("Facebook opened");
 	}
 
 }
